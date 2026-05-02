@@ -1,0 +1,24 @@
+# SparseGPT Reproduction — Llama-2-7B & Mistral-7B
+# Tested on Google Colab A100 (80GB)
+# Python 3.12
+
+# Core
+torch>=2.0.0
+transformers==4.37.2      # Cell 1 — pruning + perplexity
+# transformers==4.40.0    # Cell 6 — zero-shot eval (auto-upgraded by notebook)
+accelerate==0.30.0
+datasets==2.16.1
+sentencepiece
+safetensors
+
+# Evaluation
+# lm-evaluation-harness is cloned directly in the notebook from:
+# https://github.com/EleutherAI/lm-evaluation-harness
+
+# SparseGPT
+# Cloned directly in the notebook from:
+# https://github.com/IST-DASLab/sparsegpt
+
+# Plotting
+matplotlib
+numpy

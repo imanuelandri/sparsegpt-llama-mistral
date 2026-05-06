@@ -139,3 +139,8 @@ Run Cell 1 → Run Cells 2-6
 - Frantar, E., & Alistarh, D. (2023). [SparseGPT: Massive Language Models Can be Accurately Pruned in One Shot](https://arxiv.org/abs/2301.00774). ICML 2023.
 - [IST-DASLab/sparsegpt](https://github.com/IST-DASLab/sparsegpt) — official SparseGPT implementation
 - [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) — zero-shot evaluation framework
+
+---
+
+## Acknowledgements
+- Claude (Anthropic) — AI assistant used for code implementation and debugging
